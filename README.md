@@ -4,4 +4,4 @@ Forth Studio - An Agency based in London specializing in Brand Identity, Editori
 
 A website created by: Hanna Bekefi & Diego Zito
 
-We are the TOP DOUG'S!!! 
+We are the TOP DAWG'S!!! 
