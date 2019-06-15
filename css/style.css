@@ -635,7 +635,7 @@ a {
   position: relative;
   z-index: 1;
   background: transparent;
-  padding-bottom: 150px;
+  padding-bottom: 50px;
   left: 50px;
 }
 .intro-section {
@@ -793,7 +793,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 130px;
+    padding-top: 90px;
     width: 90%;
     margin: auto;
   }
