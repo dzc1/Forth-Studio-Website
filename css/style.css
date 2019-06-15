@@ -667,6 +667,14 @@ a {
     font-family: 'CircularStd-Book'; 
 }
 
+@media (min-width: 1024px) and (max-width: 2300px) {
+  
+  .intro-section, .intro-section .container .row {
+    height: 80vh;
+    min-height: 600px; }
+  
+}
+
 .img-absolute {
   position: absolute;
   right: 30%;
@@ -678,6 +686,16 @@ a {
 .img-absolute img {
   max-width: 850px;
 }
+
+.ipad{
+  margin-left: 0px;
+}
+
+.ipad2{
+  margin-right: 0px;
+}
+
+
 
 @media (max-width: 768px){
   .hanna{
@@ -704,6 +722,43 @@ a {
   .img-absolute img {
     max-width: 850px;
   }
+
+  .img-absolute img {
+    max-width: 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    margin-bottom: 330px;
+  }
+  .img-absolute {
+    right: 10%;
+    left: 10%;
+    top: 50%;
+  }
+
+  .ipad{
+    margin-left: 20px;
+  }
+  
+  .ipad2{
+    margin-right: 20px;
+  }
+  
+
+  .socialrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 375px) {
+  .intro-section, .intro-section .container .row {
+    min-height: 400px;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -713,8 +768,46 @@ a {
     position: relative;
     width: 100%;
     min-height: 1px;
-    margin-bottom: 330px;
-    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .socialrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+  }
+
+  .img-absolute {
+    top: 50%;
+  }
+
+
+}
+
+@media (min-width: 375px){
+  .socialrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 130px;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 375px){
+  .socialrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    width: 100%;
+    margin: auto;
   }
 }
 
