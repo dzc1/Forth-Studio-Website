@@ -15,10 +15,13 @@ body {
     src: url('../fonts/CircularStd-Book.ttf') format('truetype');
   }
   
-  /* .socialrow{
+  .socialrow{
     display: flex;
     flex-direction: row;
-  } */
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .socialicons{
     padding: 5px;
     color: black;
@@ -632,12 +635,14 @@ a {
   position: relative;
   z-index: 1;
   background: transparent;
+  padding-bottom: 150px;
+  left: 50px;
 }
 .intro-section {
   position: relative; }
   .intro-section, .intro-section .container .row {
     /* height: 100vh; */
-    min-height: 900px; }
+    min-height: 600px; }
   /* .intro-section:before {
     content: "";
     position: absolute;
@@ -649,11 +654,12 @@ a {
       .intro-section:before {
         width: 100%; } }
   .intro-section h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 900;
     color: black;
     margin-top: 200px;
     font-family: 'CircularPro-Bold'; 
+    letter-spacing: 4px;
   }
   .intro-section p {
     color: black;
@@ -678,13 +684,13 @@ a {
 
 .img-absolute {
   position: absolute;
-  right: 10%;
+  right: 30%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
   .img-absolute img {
-    max-width: 930px;
+    max-width: 850px;
   }
     @media (max-width: 991.98px) {
       .img-absolute img {
