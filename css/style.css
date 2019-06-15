@@ -657,9 +657,10 @@ a {
     font-size: 2.5rem;
     font-weight: 900;
     color: black;
-    margin-top: 200px;
+    margin-top: 120px;
     font-family: 'CircularPro-Bold'; 
     letter-spacing: 4px;
+    padding-left: 5px;
   }
   .intro-section p {
     color: black;
@@ -692,7 +693,7 @@ a {
 }
 
 .ipad2{
-  margin-right: 0px;
+  margin-right: -20px;
 }
 
 
